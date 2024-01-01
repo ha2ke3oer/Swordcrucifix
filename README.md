@@ -1,4 +1,3 @@
-
 local function IsVisible(part)
     local vec, found=workspace.CurrentCamera:WorldToViewportPoint(part.Position)
     local onscreen = found and vec.Z > 0
